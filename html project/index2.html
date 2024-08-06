@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <style>
+        body {
+            font-family: initial;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color:#FC7307;
+            color:#236AB9;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        section {
+            padding: 2rem;
+        }
+        footer {
+            background-color:darkgreen;
+            color: beige;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Kush Patel</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2><span style="text-decoration: underline;color:#FC7307 ;background-color:#236AB9;">About me</span></h2>
+        <img src="WhatsApp Image 2024-08-06 at 11.18.43_4e0b69b9.jpg" width="150px">
+        <p style="text-decoration:wavy"><h3> Myself Kush Patel,I am new to creating websites and very keen for it.This is my trial for making a functional website using mainly HTML and a little bit of CSS.</h3></p>
+</section>
+
+<section id="skills">
+    <h2><span style="text-decoration: underline; color:#FC7307; background-color:#236AB9;">Skills</span></h2>
+        <ul>
+            <li>C</li>
+            <li>C++</li>
+            <li>JAVA</li>
+            <li>HTML</li>
+            <li>SQL</li>
+         </ul>
+</section>
+
+<section id="projects">
+    <h2><span style="text-decoration: underline;color:#FC7307 ;background-color:#236AB9;">Projects</span></h2>
+        <table>
+            <tr align="center">
+                <th>Project Name</th>
+                <th>Description</th>
+                <th>Link</th>
+            </tr>
+            <tr align="center">
+                <td>Project 1</td>
+                <td>Virtual art gallery</td>
+                <td><a href="https://github.com/Kush0302/virtual-art-gallery">View Project</a></td>
+            </tr>
+            <tr align="center">
+                <td>Project 2</td>
+                <td>OTP generator</td>
+                <td><a href="https://github.com/Kush0302/OTP">View Project</a></td>
+            </tr>
+        </table>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="10" cols="50"></textarea><br>
+        <input type="submit" value="Send">
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Kush Patel</p>
+    <a href="https://github.com/Kush0302" style="color:white">GitHub</a> |
+    <a href="https://www.linkedin.com/in/kush-patel-390691264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" style="color:white">LinkedIn</a>
+</footer>
+</body>
+</html>
